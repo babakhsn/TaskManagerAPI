@@ -5,7 +5,7 @@ namespace TaskManager.Application.Abstractions;
 
 public interface IApplicationDbContext
 {
-    DbSet<User> Users { get; }
+    //DbSet<User> Users { get; }
     DbSet<Project> Projects { get; }
     DbSet<TaskItem> TaskItems { get; }
     DbSet<Comment> Comments { get; }
