@@ -1,0 +1,15 @@
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\bin\Debug\net9.0\TaskManager.Application.deps.json
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\bin\Debug\net9.0\TaskManager.Application.dll
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\bin\Debug\net9.0\TaskManager.Application.pdb
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\bin\Debug\net9.0\TaskManager.Domain.dll
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\bin\Debug\net9.0\TaskManager.Domain.pdb
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.csproj.AssemblyReference.cache
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.AssemblyInfoInputs.cache
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.AssemblyInfo.cs
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.csproj.CoreCompileInputs.cache
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\obj\Debug\net9.0\TaskMana.898BD9DB.Up2Date
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.dll
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\obj\Debug\net9.0\refint\TaskManager.Application.dll
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\obj\Debug\net9.0\TaskManager.Application.pdb
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Application\obj\Debug\net9.0\ref\TaskManager.Application.dll
