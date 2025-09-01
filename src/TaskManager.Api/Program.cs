@@ -4,6 +4,8 @@ using Microsoft.OpenApi.Models;
 using Serilog;
 using TaskManager.Application;
 using TaskManager.Infrastructure;
+using TaskManager.Application.Mappings;
+using TaskManager.Application.Projects.CreateProject; // marker type
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,9 @@ builder.Host.UseSerilog();
 
 // MVC + FluentValidation
 builder.Services.AddControllers();
+builder.Services.AddFluentValidationAutoValidation()
+                .AddFluentValidationClientsideAdapters();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateProjectCommandValidator>();
 builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
 
 // Swagger + JWT security scheme
@@ -39,6 +44,7 @@ builder.Services.AddSwaggerGen(c =>
 // app layers
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddAutoMapper(typeof(DomainToDtoProfile));
 
 var app = builder.Build();
 

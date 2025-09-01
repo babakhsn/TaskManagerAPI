@@ -1,5 +1,8 @@
-﻿using System.Reflection;
+﻿using AutoMapper;
+using MediatR;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
+using TaskManager.Application.Mappings; // DomainToDtoProfile
 
 namespace TaskManager.Application;
 
@@ -7,8 +10,11 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddApplication(this IServiceCollection services)
     {
-        services.AddAutoMapper(cfg => cfg.AddMaps(Assembly.GetExecutingAssembly()));
-        // (FluentValidation scanner can also live here later)
+        // ✅ Scans the assembly that contains DomainToDtoProfile
+        //services.AddAutoMapper(typeof(DomainToDtoProfile));
+
+        services.AddMediatR(typeof(DependencyInjection).Assembly);
+        //services.AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly);
         return services;
     }
 }
