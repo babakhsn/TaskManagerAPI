@@ -3,60 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\babak\\source\\repos\\Task Manager API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B14A8F0-AEA8-4FAC-9853-08DAA2BA74DD}|tests\\TaskManager.UnitTests\\TaskManager.UnitTests.csproj|c:\\users\\babak\\source\\repos\\task manager api\\tests\\taskmanager.unittests\\projects\\projecthandlerstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B14A8F0-AEA8-4FAC-9853-08DAA2BA74DD}|tests\\TaskManager.UnitTests\\TaskManager.UnitTests.csproj|solutionrelative:tests\\taskmanager.unittests\\projects\\projecthandlerstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B14A8F0-AEA8-4FAC-9853-08DAA2BA74DD}|tests\\TaskManager.UnitTests\\TaskManager.UnitTests.csproj|c:\\users\\babak\\source\\repos\\task manager api\\tests\\taskmanager.unittests\\projects\\listprojectsqueryvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B14A8F0-AEA8-4FAC-9853-08DAA2BA74DD}|tests\\TaskManager.UnitTests\\TaskManager.UnitTests.csproj|solutionrelative:tests\\taskmanager.unittests\\projects\\listprojectsqueryvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B14A8F0-AEA8-4FAC-9853-08DAA2BA74DD}|tests\\TaskManager.UnitTests\\TaskManager.UnitTests.csproj|c:\\users\\babak\\source\\repos\\task manager api\\tests\\taskmanager.unittests\\projects\\createprojectcommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B14A8F0-AEA8-4FAC-9853-08DAA2BA74DD}|tests\\TaskManager.UnitTests\\TaskManager.UnitTests.csproj|solutionrelative:tests\\taskmanager.unittests\\projects\\createprojectcommandvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.application\\projects\\listprojects\\listprojectsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\projects\\listprojects\\listprojectsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.application\\projects\\createprojects\\createprojectcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\projects\\createprojects\\createprojectcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.application\\projects\\listprojects\\listprojectsqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\projects\\listprojects\\listprojectsqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.application\\projects\\createprojects\\createprojectcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\projects\\createprojects\\createprojectcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.application\\projects\\listprojects\\listprojectsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\projects\\listprojects\\listprojectsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.application\\projects\\createprojects\\createprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\projects\\createprojects\\createprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.application\\projects\\dtos\\createprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\projects\\dtos\\createprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C26B8931-1E1F-428D-92D8-6EF4EF631231}|src\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C26B8931-1E1F-428D-92D8-6EF4EF631231}|src\\TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|solutionrelative:src\\taskmanager.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.application\\projects\\dtos\\updateprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\projects\\dtos\\updateprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,183 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProjectHandlersTests.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.UnitTests\\Projects\\ProjectHandlersTests.cs",
-              "RelativeDocumentMoniker": "tests\\TaskManager.UnitTests\\Projects\\ProjectHandlersTests.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.UnitTests\\Projects\\ProjectHandlersTests.cs",
-              "RelativeToolTip": "tests\\TaskManager.UnitTests\\Projects\\ProjectHandlersTests.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:13:41.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListProjectsQueryValidatorTests.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.UnitTests\\Projects\\ListProjectsQueryValidatorTests.cs",
-              "RelativeDocumentMoniker": "tests\\TaskManager.UnitTests\\Projects\\ListProjectsQueryValidatorTests.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.UnitTests\\Projects\\ListProjectsQueryValidatorTests.cs",
-              "RelativeToolTip": "tests\\TaskManager.UnitTests\\Projects\\ListProjectsQueryValidatorTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:13:14.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateProjectCommandValidatorTests.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.UnitTests\\Projects\\CreateProjectCommandValidatorTests.cs",
-              "RelativeDocumentMoniker": "tests\\TaskManager.UnitTests\\Projects\\CreateProjectCommandValidatorTests.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.UnitTests\\Projects\\CreateProjectCommandValidatorTests.cs",
-              "RelativeToolTip": "tests\\TaskManager.UnitTests\\Projects\\CreateProjectCommandValidatorTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:12:47.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ProjectsController.cs",
               "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
               "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
               "RelativeToolTip": "src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwA8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:08:04.657Z",
+              "WhenOpened": "2025-09-02T09:15:42.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Application\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "src\\TaskManager.Application\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:00:13.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Program.cs",
-              "RelativeToolTip": "src\\TaskManager.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T18:58:43.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateProjectCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommandHandler.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommandHandler.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommandHandler.cs",
-              "RelativeToolTip": "src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:06:15.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListProjectsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQueryHandler.cs",
-              "RelativeToolTip": "src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:06:53.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ListProjectsQueryValidator.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQueryValidator.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQueryValidator.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQueryValidator.cs",
-              "RelativeToolTip": "src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQueryValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:05:32.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateProjectCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommandValidator.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommandValidator.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommandValidator.cs",
-              "RelativeToolTip": "src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:05:01.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ListProjectsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQuery.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQuery.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQuery.cs",
-              "RelativeToolTip": "src\\TaskManager.Application\\Projects\\ListProjects\\ListProjectsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:04:24.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateProjectCommand.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommand.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommand.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommand.cs",
-              "RelativeToolTip": "src\\TaskManager.Application\\Projects\\CreateProjects\\CreateProjectCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:03:42.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateProjectRequest.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\DTOs\\CreateProjectRequest.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Application\\Projects\\DTOs\\CreateProjectRequest.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\DTOs\\CreateProjectRequest.cs",
-              "RelativeToolTip": "src\\TaskManager.Application\\Projects\\DTOs\\CreateProjectRequest.cs",
+              "Title": "UpdateProjectRequest.cs",
+              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\DTOs\\UpdateProjectRequest.cs",
+              "RelativeDocumentMoniker": "src\\TaskManager.Application\\Projects\\DTOs\\UpdateProjectRequest.cs",
+              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\DTOs\\UpdateProjectRequest.cs",
+              "RelativeToolTip": "src\\TaskManager.Application\\Projects\\DTOs\\UpdateProjectRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T18:02:46.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "src\\TaskManager.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCAAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T18:55:55.307Z",
+              "WhenOpened": "2025-09-02T09:14:38.446Z",
               "EditorCaption": ""
             }
           ]

@@ -186,7 +186,6 @@ C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.0\TaskMana.4D7FE283.Up2Date
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.0\TaskManager.Api.dll
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.0\refint\TaskManager.Api.dll

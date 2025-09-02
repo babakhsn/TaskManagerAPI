@@ -1,0 +1,6 @@
+{
+  "TaskManager.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api",
+  "TaskManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application",
+  "TaskManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Domain",
+  "TaskManager.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Infrastructure"
+}

@@ -42,9 +42,9 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 // app layers
+builder.Services.AddAutoMapper(typeof(DomainToDtoProfile));
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
-builder.Services.AddAutoMapper(typeof(DomainToDtoProfile));
 
 var app = builder.Build();
 
@@ -60,3 +60,6 @@ app.MapControllers();
 app.MapGet("/ping", () => "pong");
 
 app.Run();
+
+
+public partial class Program { }
