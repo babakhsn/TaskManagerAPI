@@ -34,8 +34,7 @@
               "RelativeToolTip": "src\\TaskManager.Api\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T21:08:22.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T21:08:22.311Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "tests\\TaskManager.UnitTests\\Tasks\\TaskHandlersTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T20:50:49.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T20:50:49.782Z"
             }
           ]
         }

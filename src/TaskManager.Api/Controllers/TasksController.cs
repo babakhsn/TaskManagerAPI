@@ -6,6 +6,9 @@ using TaskManager.Application.DTOs;
 using TaskManager.Application.Tasks.CreateTask;
 using TaskManager.Application.Tasks.DTOs;
 using TaskManager.Application.Tasks.ListByProject;
+using TaskManager.Application.Tasks.GetTask;
+using TaskManager.Application.Tasks.UpdateTask;
+using TaskManager.Application.Tasks.DeleteTask;
 
 namespace TaskManager.Api.Controllers;
 
@@ -47,5 +50,38 @@ public class TasksController : ControllerBase
 
         // You can add a GET /api/tasks/{id} later; for now point to list of project tasks
         return CreatedAtAction(nameof(List), new { projectId }, created);
+    }
+
+    [HttpGet("{taskId:guid}")]
+    public async Task<ActionResult<TaskDto>> Get(Guid projectId, Guid taskId)
+    {
+        var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (!Guid.TryParse(userIdStr, out var actorId)) return Forbid();
+
+        var dto = await _mediator.Send(new GetTaskQuery(actorId, projectId, taskId));
+        return dto is null ? NotFound() : Ok(dto);
+    }
+
+    [HttpPut("{taskId:guid}")]
+    public async Task<ActionResult<TaskDto>> Update(Guid projectId, Guid taskId, [FromBody] UpdateTaskRequest body)
+    {
+        var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (!Guid.TryParse(userIdStr, out var actorId)) return Forbid();
+
+        var dto = await _mediator.Send(new UpdateTaskCommand(
+            actorId, projectId, taskId,
+            body.Title, body.Description, body.DueDateUtc, body.Priority, body.Status, body.AssigneeId));
+
+        return dto is null ? NotFound() : Ok(dto);
+    }
+
+    [HttpDelete("{taskId:guid}")]
+    public async Task<IActionResult> Delete(Guid projectId, Guid taskId)
+    {
+        var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (!Guid.TryParse(userIdStr, out var actorId)) return Forbid();
+
+        var ok = await _mediator.Send(new DeleteTaskCommand(actorId, projectId, taskId));
+        return ok ? NoContent() : NotFound();
     }
 }

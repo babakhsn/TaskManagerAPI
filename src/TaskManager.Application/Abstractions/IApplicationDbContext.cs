@@ -9,6 +9,8 @@ public interface IApplicationDbContext
     DbSet<Project> Projects { get; }
     DbSet<TaskItem> TaskItems { get; }
     DbSet<Comment> Comments { get; }
+    DbSet<ProjectMember> ProjectMembers { get; }
+
 
     Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 }

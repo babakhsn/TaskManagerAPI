@@ -36,26 +36,26 @@ public class TestWebApplicationFactoryDifferentUser : TestWebApplicationFactory
     }
 }
 
-[method: Obsolete]
-public class TestAuthHandler2(
-    IOptionsMonitor<AuthenticationSchemeOptions> options,
-    ILoggerFactory logger,
-    UrlEncoder encoder,
-    ISystemClock clock) : TaskManager.IntegrationTests.Utils.TestAuthHandler(options, logger, encoder, clock)
-{
-    public new const string Scheme = "TestAuth2";
-    public new static readonly Guid DefaultUserId = Guid.Parse("bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb");
+//[method: Obsolete]
+//public class TestAuthHandler2(
+//    IOptionsMonitor<AuthenticationSchemeOptions> options,
+//    ILoggerFactory logger,
+//    UrlEncoder encoder,
+//    ISystemClock clock) : TaskManager.IntegrationTests.Utils.TestAuthHandler(options, logger, encoder, clock)
+//{
+//    public new const string Scheme = "TestAuth2";
+//    public new static readonly Guid DefaultUserId = Guid.Parse("bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb");
 
-    protected override Task<AuthenticateResult> HandleAuthenticateAsync()
-    {
-        var claims = new[]
-        {
-            new Claim(ClaimTypes.NameIdentifier, DefaultUserId.ToString()),
-            new Claim(ClaimTypes.Email, "user2@example.com")
-        };
-        var identity = new ClaimsIdentity(claims, Scheme);
-        var principal = new ClaimsPrincipal(identity);
-        var ticket = new AuthenticationTicket(principal, Scheme);
-        return Task.FromResult(AuthenticateResult.Success(ticket));
-    }
-}
+//    protected override Task<AuthenticateResult> HandleAuthenticateAsync()
+//    {
+//        var claims = new[]
+//        {
+//            new Claim(ClaimTypes.NameIdentifier, DefaultUserId.ToString()),
+//            new Claim(ClaimTypes.Email, "user2@example.com")
+//        };
+//        var identity = new ClaimsIdentity(claims, Scheme);
+//        var principal = new ClaimsPrincipal(identity);
+//        var ticket = new AuthenticationTicket(principal, Scheme);
+//        return Task.FromResult(AuthenticateResult.Success(ticket));
+//    }
+//}
