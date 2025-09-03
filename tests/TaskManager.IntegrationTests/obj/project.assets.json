@@ -20,19 +20,6 @@
           }
         }
       },
-      "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
-        "type": "package",
-        "dependencies": {
-          "AutoMapper": "12.0.0",
-          "Microsoft.Extensions.Options": "6.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
-        }
-      },
       "Azure.Core/1.38.0": {
         "type": "package",
         "dependencies": {
@@ -2393,13 +2380,13 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "AutoMapper": "15.0.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "FluentValidation": "11.11.0",
           "FluentValidation.AspNetCore": "11.3.1",
           "FluentValidation.DependencyInjectionExtensions": "11.11.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.8",
           "Microsoft.AspNetCore.OpenApi": "9.0.8",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.8",
           "Serilog.AspNetCore": "9.0.0",
           "Serilog.Sinks.Console": "6.0.0",
           "Swashbuckle.AspNetCore": "9.0.4",
@@ -2483,20 +2470,6 @@
         "lib/net9.0/AutoMapper.xml",
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.xml"
-      ]
-    },
-    "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.0": {
-      "sha512": "XCJ4E3oKrbRl1qY9Mr+7uyC0xZj1+bqQjmQRWTiTKiVuuXTny+7YFWHi20tPjwkMukLbicN6yGlDy5PZ4wyi1w==",
-      "type": "package",
-      "path": "automapper.extensions.microsoft.dependencyinjection/12.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
-        "automapper.extensions.microsoft.dependencyinjection.nuspec",
-        "icon.png",
-        "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
       ]
     },
     "Azure.Core/1.38.0": {
@@ -6014,6 +5987,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "AutoMapper >= 15.0.1",
       "FluentAssertions >= 8.6.0",
       "Microsoft.AspNetCore.Mvc.Testing >= 9.0.8",
       "Microsoft.EntityFrameworkCore.InMemory >= 9.0.8",
@@ -6079,6 +6053,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[15.0.1, )"
+          },
           "FluentAssertions": {
             "target": "Package",
             "version": "[8.6.0, )"

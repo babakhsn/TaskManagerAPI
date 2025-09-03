@@ -1,19 +1,26 @@
-﻿using System.Reflection;
+﻿using AutoMapper;
 using FluentValidation;
-using Microsoft.Extensions.DependencyInjection;
+using MediatR;
+using Microsoft.Extensions.Logging.Abstractions;
+using TaskManager.Application.Mappings;
 
 namespace TaskManager.Application;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddApiServices(this IServiceCollection services)
+    public static IServiceCollection AddApplicationForAPI(this IServiceCollection services)
     {
-        // AutoMapper profiles in this assembly
-        services.AddAutoMapper(Assembly.GetExecutingAssembly());
+        // ✅ Manual AutoMapper registration
+        var mapperConfig = new MapperConfiguration(
+            cfg => { cfg.AddProfile<DomainToDtoProfile>(); },
+            NullLoggerFactory.Instance
+        );
+        IMapper mapper = mapperConfig.CreateMapper();
+        services.AddSingleton(mapper);
 
-        // FluentValidation from this assembly
-        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-
+        // MediatR + FluentValidation as before
+        services.AddMediatR(typeof(DependencyInjection).Assembly);
+        services.AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly);
 
         return services;
     }

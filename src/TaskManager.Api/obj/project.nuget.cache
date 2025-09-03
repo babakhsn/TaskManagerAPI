@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Cu+T+PlEVR4=",
+  "dgSpecHash": "uGXJwO2VsI0=",
   "success": true,
   "projectFilePath": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\TaskManager.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\babak\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
-    "C:\\Users\\babak\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\babak\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\babak\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\babak\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",

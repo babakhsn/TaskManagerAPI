@@ -7,7 +7,6 @@ C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\bin\Debug\net9.
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\bin\Debug\net9.0\TaskManager.Api.dll
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\bin\Debug\net9.0\TaskManager.Api.pdb
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\bin\Debug\net9.0\AutoMapper.dll
-C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\bin\Debug\net9.0\Azure.Identity.dll
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\bin\Debug\net9.0\FluentValidation.dll

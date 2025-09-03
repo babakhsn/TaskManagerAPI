@@ -319,7 +319,6 @@ C:\Users\babak\source\repos\Task Manager API\tests\TaskManager.IntegrationTests\
 C:\Users\babak\source\repos\Task Manager API\tests\TaskManager.IntegrationTests\bin\Debug\net9.0\refs\System.Xml.XPath.XDocument.dll
 C:\Users\babak\source\repos\Task Manager API\tests\TaskManager.IntegrationTests\bin\Debug\net9.0\refs\WindowsBase.dll
 C:\Users\babak\source\repos\Task Manager API\tests\TaskManager.IntegrationTests\bin\Debug\net9.0\AutoMapper.dll
-C:\Users\babak\source\repos\Task Manager API\tests\TaskManager.IntegrationTests\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\babak\source\repos\Task Manager API\tests\TaskManager.IntegrationTests\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\babak\source\repos\Task Manager API\tests\TaskManager.IntegrationTests\bin\Debug\net9.0\Azure.Identity.dll
 C:\Users\babak\source\repos\Task Manager API\tests\TaskManager.IntegrationTests\bin\Debug\net9.0\FluentAssertions.dll

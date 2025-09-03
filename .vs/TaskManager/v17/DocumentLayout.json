@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\babak\\source\\repos\\Task Manager API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0DE11CA-8A7C-4167-8317-291E9E63A95A}|tests\\TaskManager.IntegrationTests\\TaskManager.IntegrationTests.csproj|c:\\users\\babak\\source\\repos\\task manager api\\tests\\taskmanager.integrationtests\\utils\\testwebapplicationfactorydifferentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DE11CA-8A7C-4167-8317-291E9E63A95A}|tests\\TaskManager.IntegrationTests\\TaskManager.IntegrationTests.csproj|solutionrelative:tests\\taskmanager.integrationtests\\utils\\testwebapplicationfactorydifferentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0DE11CA-8A7C-4167-8317-291E9E63A95A}|tests\\TaskManager.IntegrationTests\\TaskManager.IntegrationTests.csproj|c:\\users\\babak\\source\\repos\\task manager api\\tests\\taskmanager.integrationtests\\utils\\testauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DE11CA-8A7C-4167-8317-291E9E63A95A}|tests\\TaskManager.IntegrationTests\\TaskManager.IntegrationTests.csproj|solutionrelative:tests\\taskmanager.integrationtests\\utils\\testauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0DE11CA-8A7C-4167-8317-291E9E63A95A}|tests\\TaskManager.IntegrationTests\\TaskManager.IntegrationTests.csproj|c:\\users\\babak\\source\\repos\\task manager api\\tests\\taskmanager.integrationtests\\utils\\testwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DE11CA-8A7C-4167-8317-291E9E63A95A}|tests\\TaskManager.IntegrationTests\\TaskManager.IntegrationTests.csproj|solutionrelative:tests\\taskmanager.integrationtests\\utils\\testwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0DE11CA-8A7C-4167-8317-291E9E63A95A}|tests\\TaskManager.IntegrationTests\\TaskManager.IntegrationTests.csproj|c:\\users\\babak\\source\\repos\\task manager api\\tests\\taskmanager.integrationtests\\projectlifecycletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0DE11CA-8A7C-4167-8317-291E9E63A95A}|tests\\TaskManager.IntegrationTests\\TaskManager.IntegrationTests.csproj|solutionrelative:tests\\taskmanager.integrationtests\\projectlifecycletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.application\\projects\\dtos\\updateprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\projects\\dtos\\updateprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B14A8F0-AEA8-4FAC-9853-08DAA2BA74DD}|tests\\TaskManager.UnitTests\\TaskManager.UnitTests.csproj|c:\\users\\babak\\source\\repos\\task manager api\\tests\\taskmanager.unittests\\tasks\\taskhandlerstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B14A8F0-AEA8-4FAC-9853-08DAA2BA74DD}|tests\\TaskManager.UnitTests\\TaskManager.UnitTests.csproj|solutionrelative:tests\\taskmanager.unittests\\tasks\\taskhandlerstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Api\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\DependencyInjection.cs",
               "RelativeToolTip": "src\\TaskManager.Api\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:46:22.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T21:08:22.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TestWebApplicationFactoryDifferentUser.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.IntegrationTests\\Utils\\TestWebApplicationFactoryDifferentUser.cs",
-              "RelativeDocumentMoniker": "tests\\TaskManager.IntegrationTests\\Utils\\TestWebApplicationFactoryDifferentUser.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.IntegrationTests\\Utils\\TestWebApplicationFactoryDifferentUser.cs",
-              "RelativeToolTip": "tests\\TaskManager.IntegrationTests\\Utils\\TestWebApplicationFactoryDifferentUser.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:40:28.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProjectLifecycleTests.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.IntegrationTests\\ProjectLifecycleTests.cs",
-              "RelativeDocumentMoniker": "tests\\TaskManager.IntegrationTests\\ProjectLifecycleTests.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.IntegrationTests\\ProjectLifecycleTests.cs",
-              "RelativeToolTip": "tests\\TaskManager.IntegrationTests\\ProjectLifecycleTests.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:26:25.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TestWebApplicationFactory.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.IntegrationTests\\Utils\\TestWebApplicationFactory.cs",
-              "RelativeDocumentMoniker": "tests\\TaskManager.IntegrationTests\\Utils\\TestWebApplicationFactory.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.IntegrationTests\\Utils\\TestWebApplicationFactory.cs",
-              "RelativeToolTip": "tests\\TaskManager.IntegrationTests\\Utils\\TestWebApplicationFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:24:47.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestAuthHandler.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.IntegrationTests\\Utils\\TestAuthHandler.cs",
-              "RelativeDocumentMoniker": "tests\\TaskManager.IntegrationTests\\Utils\\TestAuthHandler.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.IntegrationTests\\Utils\\TestAuthHandler.cs",
-              "RelativeToolTip": "tests\\TaskManager.IntegrationTests\\Utils\\TestAuthHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:23:10.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\TaskManager.Api\\Program.cs",
               "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Program.cs",
               "RelativeToolTip": "src\\TaskManager.Api\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:21:39.619Z",
+              "WhenOpened": "2025-09-02T21:02:50.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProjectsController.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
-              "RelativeToolTip": "src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwA8AAAALAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TaskHandlersTests.cs",
+              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.UnitTests\\Tasks\\TaskHandlersTests.cs",
+              "RelativeDocumentMoniker": "tests\\TaskManager.UnitTests\\Tasks\\TaskHandlersTests.cs",
+              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\tests\\TaskManager.UnitTests\\Tasks\\TaskHandlersTests.cs",
+              "RelativeToolTip": "tests\\TaskManager.UnitTests\\Tasks\\TaskHandlersTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:15:42.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateProjectRequest.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\DTOs\\UpdateProjectRequest.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Application\\Projects\\DTOs\\UpdateProjectRequest.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Projects\\DTOs\\UpdateProjectRequest.cs",
-              "RelativeToolTip": "src\\TaskManager.Application\\Projects\\DTOs\\UpdateProjectRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T09:14:38.446Z"
+              "WhenOpened": "2025-09-02T20:50:49.782Z"
             }
           ]
         }

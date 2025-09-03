@@ -1,11 +1,13 @@
+using AutoMapper;
+using TaskManager.Application.Mappings; // DomainToDtoProfile
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using TaskManager.Application;
-using TaskManager.Infrastructure;
-using TaskManager.Application.Mappings;
 using TaskManager.Application.Projects.CreateProject; // marker type
+using TaskManager.Infrastructure;
+using Microsoft.Extensions.Logging.Abstractions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,7 +44,16 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 // app layers
-builder.Services.AddAutoMapper(typeof(DomainToDtoProfile));
+//builder.Services.AddAutoMapper(typeof(DomainToDtoProfile).Assembly);
+
+
+var mapperConfig = new AutoMapper.MapperConfiguration(
+    cfg => { cfg.AddProfile<DomainToDtoProfile>(); },
+    NullLoggerFactory.Instance // v15 requires a logger factory
+);
+IMapper mapper = mapperConfig.CreateMapper();
+builder.Services.AddSingleton(mapper);
+
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
