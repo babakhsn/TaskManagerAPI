@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskManager.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e22ca72a4f193681a13fa8beafea6384fa8408bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eabc4f226a722eae197f5d1782362db55cc8adf6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskManager.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskManager.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

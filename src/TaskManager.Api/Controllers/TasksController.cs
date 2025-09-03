@@ -1,14 +1,15 @@
-﻿using System.Security.Claims;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
+using System.Security.Claims;
 using TaskManager.Application.DTOs;
 using TaskManager.Application.Tasks.CreateTask;
-using TaskManager.Application.Tasks.DTOs;
-using TaskManager.Application.Tasks.ListByProject;
-using TaskManager.Application.Tasks.GetTask;
-using TaskManager.Application.Tasks.UpdateTask;
 using TaskManager.Application.Tasks.DeleteTask;
+using TaskManager.Application.Tasks.DTOs;
+using TaskManager.Application.Tasks.GetTask;
+using TaskManager.Application.Tasks.ListByProject;
+using TaskManager.Application.Tasks.UpdateTask;
 
 namespace TaskManager.Api.Controllers;
 
@@ -21,6 +22,9 @@ public class TasksController : ControllerBase
     public TasksController(IMediator mediator) => _mediator = mediator;
 
     [HttpGet]
+    [SwaggerOperation(Summary = "List my tasks", Description = "Returns tasks related to a project.")]
+    [ProducesResponseType(typeof(IReadOnlyList<TaskDto>), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     public async Task<ActionResult<IReadOnlyList<TaskDto>>> List(Guid projectId)
     {
         var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -32,6 +36,10 @@ public class TasksController : ControllerBase
     }
 
     [HttpPost]
+    [SwaggerOperation(Summary = "Create a task", Description = "Creates a new task for the authenticated user.")]
+    [ProducesResponseType(typeof(TaskDto), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     public async Task<ActionResult<TaskDto>> Create(Guid projectId, [FromBody] CreateTaskRequest body)
     {
         var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);

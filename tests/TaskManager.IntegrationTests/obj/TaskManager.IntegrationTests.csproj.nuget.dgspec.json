@@ -100,11 +100,19 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Serilog.Enrichers.CorrelationId": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Serilog.Sinks.Console": {
               "target": "Package",
               "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
               "target": "Package",
               "version": "[9.0.4, )"
             }

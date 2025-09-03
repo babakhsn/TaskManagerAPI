@@ -191,3 +191,7 @@ C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.0\TaskManager.Api.pdb
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.0\TaskManager.Api.genruntimeconfig.cache
 C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.0\ref\TaskManager.Api.dll
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\bin\Debug\net9.0\TaskManager.Api.xml
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\bin\Debug\net9.0\Serilog.Enrichers.CorrelationId.dll
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\babak\source\repos\Task Manager API\src\TaskManager.Api\obj\Debug\net9.0\TaskManager.Api.xml
