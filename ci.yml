@@ -2,10 +2,10 @@ name: CI
 
 on:
   push:
-    branches: [ main, master, develop ]
+    branches: [ main ]
     tags: [ 'v*' ]               # enables optional GHCR push on tags like v1.0.0
   pull_request:
-    branches: [ main, master, develop ]
+    branches: [ main ]
 
 permissions:
   contents: read
