@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\babak\\source\\repos\\Task Manager API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B62DB66A-86ED-4868-930F-BEE0556F6305}|NewFolder1{B62DB66A-86ED-4868-930F-BEE0556F6305}|C:\\Users\\babak\\source\\repos\\Task Manager API\\ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B62DB66A-86ED-4868-930F-BEE0556F6305}|NewFolder1{B62DB66A-86ED-4868-930F-BEE0556F6305}|solutionrelative:ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{B62DB66A-86ED-4868-930F-BEE0556F6305}|workflows{B62DB66A-86ED-4868-930F-BEE0556F6305}|C:\\Users\\babak\\source\\repos\\Task Manager API\\ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B62DB66A-86ED-4868-930F-BEE0556F6305}|workflows{B62DB66A-86ED-4868-930F-BEE0556F6305}|solutionrelative:ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\babak\\source\\repos\\Task Manager API\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -30,8 +30,7 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-09-04T08:59:39.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T08:59:39.082Z"
             },
             {
               "$type": "Document",
@@ -41,7 +40,7 @@
               "RelativeDocumentMoniker": "ci.yml",
               "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\ci.yml",
               "RelativeToolTip": "ci.yml",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAwFIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-09-04T08:51:49.968Z",
               "EditorCaption": ""
