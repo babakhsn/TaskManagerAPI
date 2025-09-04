@@ -10,6 +10,8 @@ using TaskManager.Application;
 using TaskManager.Application.Mappings; // DomainToDtoProfile
 using TaskManager.Application.Projects.CreateProject; // marker type
 using TaskManager.Infrastructure;
+using Microsoft.EntityFrameworkCore;
+using TaskManager.Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -90,6 +92,13 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.MapGet("/ping", () => "pong");
+
+if (Environment.GetEnvironmentVariable("APPLY_MIGRATIONS") == "true")
+{
+    using var scope = app.Services.CreateScope();
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate();
+}
 
 app.Run();
 

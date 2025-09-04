@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\babak\\source\\repos\\Task Manager API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.application\\common\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87841397-89C8-46AD-8659-512A5ECEF8F0}|src\\TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:src\\taskmanager.application\\common\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B62DB66A-86ED-4868-930F-BEE0556F6305}|NewFolder1{B62DB66A-86ED-4868-930F-BEE0556F6305}|C:\\Users\\babak\\source\\repos\\Task Manager API\\ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B62DB66A-86ED-4868-930F-BEE0556F6305}|NewFolder1{B62DB66A-86ED-4868-930F-BEE0556F6305}|solutionrelative:ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|c:\\users\\babak\\source\\repos\\task manager api\\src\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8AD9B62-3255-4E4A-AFF1-E9CDE6C3E16F}|src\\TaskManager.Api\\TaskManager.Api.csproj|solutionrelative:src\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\babak\\source\\repos\\Task Manager API\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ValidationBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Common\\Behaviors\\ValidationBehavior.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Application\\Common\\Behaviors\\ValidationBehavior.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Application\\Common\\Behaviors\\ValidationBehavior.cs",
-              "RelativeToolTip": "src\\TaskManager.Application\\Common\\Behaviors\\ValidationBehavior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T10:49:27.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TasksController.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Controllers\\TasksController.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Api\\Controllers\\TasksController.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Controllers\\TasksController.cs",
-              "RelativeToolTip": "src\\TaskManager.Api\\Controllers\\TasksController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T10:44:45.832Z",
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-09-04T08:59:39.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProjectsController.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
-              "RelativeToolTip": "src\\TaskManager.Api\\Controllers\\ProjectsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T10:42:17.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\TaskManager.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\src\\TaskManager.Api\\Program.cs",
-              "RelativeToolTip": "src\\TaskManager.Api\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T21:02:50.678Z",
+              "DocumentIndex": 0,
+              "Title": "ci.yml",
+              "DocumentMoniker": "C:\\Users\\babak\\source\\repos\\Task Manager API\\ci.yml",
+              "RelativeDocumentMoniker": "ci.yml",
+              "ToolTip": "C:\\Users\\babak\\source\\repos\\Task Manager API\\ci.yml",
+              "RelativeToolTip": "ci.yml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwFIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-04T08:51:49.968Z",
               "EditorCaption": ""
             }
           ]

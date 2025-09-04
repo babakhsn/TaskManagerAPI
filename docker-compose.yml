@@ -1,0 +1,49 @@
+version: "3.8"
+
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: taskmanager-sql
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Your_password123"   # change in real setups
+      MSSQL_PID: "Developer"
+    ports:
+      - "1433:1433"
+    healthcheck:
+      test: ["CMD", "/opt/mssql-tools18/bin/sqlcmd", "-C", "-S", "localhost", "-U", "sa", "-P", "Your_password123", "-Q", "SELECT 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mssqldata:/var/opt/mssql
+    networks:
+      - tmnet
+
+  api:
+    build:
+      context: .
+      dockerfile: src/TaskManager.Api/Dockerfile
+    container_name: taskmanager-api
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      APPLY_MIGRATIONS: "true"
+      # Connection string points to the db service name "db"
+      ConnectionStrings__DefaultConnection: "Server=db;Database=TaskManagerDB;User Id=sa;Password=Your_password123;TrustServerCertificate=True;MultipleActiveResultSets=true"
+      # JWT config (use your values or keep defaults from appsettings)
+      Jwt__Key: "a_very_long_random_secret_key_32+chars"
+      Jwt__Issuer: "TaskManager"
+      Jwt__Audience: "TaskManagerClient"
+    ports:
+      - "5048:8080"
+    networks:
+      - tmnet
+
+volumes:
+  mssqldata:
+
+networks:
+  tmnet:
