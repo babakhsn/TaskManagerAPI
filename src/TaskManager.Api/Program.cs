@@ -100,6 +100,12 @@ if (Environment.GetEnvironmentVariable("APPLY_MIGRATIONS") == "true")
     db.Database.Migrate();
 }
 
+if (Environment.GetEnvironmentVariable("SEED_DEMO") == "true")
+{
+    using var scope = app.Services.CreateScope();
+    await DbSeeder.SeedAsync(scope.ServiceProvider);
+}
+
 app.Run();
 
 
